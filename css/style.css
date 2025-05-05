@@ -38,7 +38,7 @@ a {
 /* Navbar */
 header {
 
-  padding: 20px 100px;
+  padding: 30px ;
   z-index: 1000;
   /* background-color: var(--bg-color); */
   transition: 0.5s;
@@ -99,6 +99,7 @@ header .logo {
   height: 270px;
 }
 .box-img img {
+  width: 100%;
   height: 100%;
   cursor: pointer;
   transition: 0.2s all linear;
@@ -239,6 +240,7 @@ header .logo {
     grid-template-columns: repeat(auto-fit, minmax(140px, auto));
   }
   .box .box-img img {
+    width: 100%;
     height: 240px;
   }
 }
